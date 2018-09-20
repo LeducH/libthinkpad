@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_definitions(-pthread)
 add_definitions(-Wall)
 
-set(SYSTEMD on)
+# set(SYSTEMD on)
 
 set(SOURCES
     src/libthinkpad.cpp
